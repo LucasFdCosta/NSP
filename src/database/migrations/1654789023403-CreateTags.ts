@@ -1,4 +1,4 @@
-import {MigrationInterface, QueryRunner, Table } from "typeorm";
+import { MigrationInterface, QueryRunner, Table } from "typeorm";
 
 export class CreateTags1654789023403 implements MigrationInterface {
 
@@ -22,7 +22,7 @@ export class CreateTags1654789023403 implements MigrationInterface {
                         default: "now()"
                     },
                     {
-                        name: "created_at",
+                        name: "updated_at",
                         type: "timestamp",
                         default: "now()"
                     }
